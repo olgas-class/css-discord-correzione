@@ -1,0 +1,244 @@
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* COMMON */
+html {
+    font-family: Whitney, Helvetica, Arial, sans-serif;
+    font-size: 100%;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+.container {
+    width: 70%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Utilities */
+
+.flex-container {
+    display: flex;
+}
+
+.justify-content-between {
+    justify-content: space-between;
+}
+
+.align-items-start {
+    align-items: flex-start;
+}
+
+.bg-grey {
+    background-color: lightgray;
+}
+
+.mr-1 {
+    margin-right: 1em;
+}
+
+.mb-1 {
+    margin-bottom: 1em;
+}
+
+/* Typography */
+h1,
+h2,
+p {
+    margin-bottom: .8em;
+}
+
+.text-violet {
+    color: #7289da;
+}
+
+/* Buttons */
+.btn {
+    display: inline-block;
+    border-radius: 30px;
+    line-height: normal;
+}
+
+.btn-small {
+    font-size: .8rem;
+    padding: .4em .8em;
+}
+
+.btn-large {
+    font-size: 1.1rem;
+    padding: .6em 1em;
+}
+
+.btn-light {
+    background-color: white;
+    color: black;
+}
+
+.btn-dark {
+    background-color: #23272a;
+    color: white;
+}
+
+.btn-violet {
+    background-color: #7289da;
+    color: white;
+}
+
+
+/* HEADER */
+/* Header top */
+.header-top {
+    height: 60px;
+    line-height: 60px;
+    background-color: #255ee9;
+    color: white;
+}
+
+.header-logo,
+.header-actions {
+    display: flex;
+    align-items: center;
+    width: 20%;
+}
+
+.header-menu {
+    flex-grow: 1;
+}
+
+.header-menu ul {
+    text-align: center;
+}
+
+.header-menu li {
+    display: inline-block;
+    margin: 0px .5em;
+}
+
+.header-actions {
+    text-align: right;
+}
+
+/* Jumbotron */
+.jumbotron {
+    padding: 4em 0;
+    background-image: url("../img/jumbo.png");
+    background-size: cover;
+    background-position: center;
+    
+}
+
+.jumbotron .content {
+    width: 50%;
+    margin: 0 auto;
+    color: white;
+    text-align: center;
+}
+
+/* MAIN */
+main section {
+    padding: 3em 0;
+}
+
+/* Inserimento con immagine */
+img.wave {
+    opacity: .18;
+    display: block;
+}
+
+img.wave-reverse {
+    transform: rotateX(180deg);
+}
+
+/* Inserimento come background image */
+div.wave {
+    height: 100px;
+    background-image: url("../img/wave.svg");
+    background-size: cover;
+    opacity: .18;
+}
+
+.big-column {
+    width: 60%;
+}
+
+.small-column {
+    width: 40%;
+    padding: 1em;
+}
+
+section.big {
+    text-align: center;
+}
+
+.bg-stars {
+    width: 50%;
+    margin: 2em auto 0px;
+    padding: 1.5em 0px;
+    background-image: url("../img/stars.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+/* FOOTER  */
+footer {
+    padding: 3em 0px 4em;
+    background-color: #23272a;
+    color: white;
+}
+/* Footer top */
+.footer-top {
+    border-bottom: 1px solid white;
+}
+
+.footer-social {
+    width: 30%;
+    padding-right: 3em;
+}
+
+.language {
+    display: inline-block;
+    margin-bottom: 1em;
+}
+
+.language * {
+    vertical-align: middle;
+}
+
+.language img {
+    width: 25px;
+}
+
+.footer-menu {
+    display: flex;
+    width: 70%;
+    padding: .5px .5em 1em;
+}
+
+.footer-menu-column {
+    /* flex-grow: 1; */
+    width: calc(100% / 4);
+}
+
+.footer-menu-column li {
+    margin-bottom: .5em;
+}
+
+/* Footer bottom */
+.footer-bottom {
+    padding-top: .5em;
+}
